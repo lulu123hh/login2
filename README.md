@@ -25,7 +25,7 @@ Este proyecto fue generado utilizando [Angular CLI](https://github.com/angular/a
 ![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen5.png)
 
 ### Explorador para los personajes de Rick & Morty
-- El cual esta integrado con la api de Rick & Morty
+- El cual esta integrado con la API de Rick & Morty https://rickandmortyapi.com/api/character
 - Nos muestra los 826 personajes 
 - En el cual se puede agregar personajes, tambien tiene un buscador, y nos muestra una tabla en la cual se refleja el avatar, id, nombre, estado, especie, genero, ubicación y acciones.
 - En las acciones podemos visualizar a detalle la informacion del persoje, editar y eliminar.
