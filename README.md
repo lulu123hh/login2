@@ -1,59 +1,85 @@
 # Login
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.0.
+Este proyecto fue generado utilizando [Angular CLI](https://github.com/angular/angular-cli) versión 20.1.0.
 
-## Development server
+## Contenido del Proyecto
 
-To start a local development server, run:
+### Sistema de Autenticación
+- Login y Registro: IIntegrado con API
+![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen1.png)
+
+### Dashboard
+- Nos redirige al portal de administarción en el cual los usuarios del sistema pueden gestionar su cuenta y un explorador de los personajes de Rick & Morty. 
+![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen2.png)
+- Tambien se muestra el perfil del usuario
+![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen3.png)
+
+### Perfil de usuario
+- Muestra a detalle la informacion del usuario
+![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen4.png) 
+![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen5.png)
+
+### Explorador para los personajes de Rick & Morty
+- El cual esta integrado con la api de Rick & Morty
+- Nos muestra los 826 personajes 
+- En el cual se puede agregar, un nuevo personaje, buscador, y nos muestra una tabla en lacula se refleja el avatar, id, nombre, estado, especie, genero, ubicación y acciones.
+- En las acciones podemos visualizar a detalle la informacion del persoje, editar y eliminar.
+![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen6.png)
+- Tambien tiene una paginacion en el cual se muestra de 20 personajes.
+![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen7.png) 
+
+## Servidor de desarrollo
+
+Para iniciar un servidor de desarrollo local, ejecuta:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Una vez que el servidor esté en funcionamiento, abre tu navegador y navega a `http://localhost:4200/`. La aplicación se recargará automáticamente cada vez que modifiques alguno de los archivos fuente.
 
-## Code scaffolding
+## Generación de código
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Angular CLI incluye potentes herramientas de generación de código. Para generar un nuevo componente, ejecuta:
 
 ```bash
 ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Para obtener una lista completa de los esquemas disponibles (como `componentes`, `directivas`, o `pipes`), ejecuta:
 
 ```bash
 ng generate --help
 ```
 
-## Building
+## Construcción
 
-To build the project run:
+Para construir el proyecto, ejecuta:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Esto compilará tu proyecto y almacenará los artefactos de construcción en el directorio `dist/` Por defecto, la construcción de producción optimiza tu aplicación para rendimiento y velocidad.
 
-## Running unit tests
+## Ejecución de pruebas unitarias
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Para ejecutar pruebas unitarias con el corredor de pruebas [Karma](https://karma-runner.github.io) utiliza el siguiente comando:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+## Ejecución de pruebas de extremo a extremo
 
-For end-to-end (e2e) testing, run:
+Para pruebas de extremo a extremo (e2e), ejecuta:
 
 ```bash
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Angular CLI no incluye un marco de pruebas de extremo a extremo por defecto. Puedes elegir uno que se adapte a tus necesidades.
 
-## Additional Resources
+## Recursos adicionales
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Para más información sobre el uso de Angular CLI, incluyendo referencias detalladas de comandos, visita la página de [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli)
