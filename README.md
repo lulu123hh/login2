@@ -6,16 +6,19 @@ Este proyecto fue generado utilizando [Angular CLI](https://github.com/angular/a
 
 ### Sistema de Autenticación
 - Login y Registro: IIntegrado con API https://api.escuelajs.co/api/v1/users
+- 
 ![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen1.png)
 
 ### Dashboard
-- Nos redirige al portal de administarción en el cual los usuarios del sistema pueden gestionar su cuenta y un explorador de los personajes de Rick & Morty. 
+- Nos redirige al portal de administarción en el cual los usuarios del sistema pueden gestionar su cuenta y un explorador de los personajes de Rick & Morty.
+- 
 ![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen2.png)
 - Tambien se muestra el perfil del usuario
 ![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen3.png)
 
 ### Perfil de usuario
 - Muestra a detalle la informacion del usuario
+- 
 ![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen4.png) 
 ![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen5.png)
 
@@ -24,8 +27,10 @@ Este proyecto fue generado utilizando [Angular CLI](https://github.com/angular/a
 - Nos muestra los 826 personajes 
 - En el cual se puede agregar personajes, tambien tiene un buscador, y nos muestra una tabla en la cual se refleja el avatar, id, nombre, estado, especie, genero, ubicación y acciones.
 - En las acciones podemos visualizar a detalle la informacion del persoje, editar y eliminar.
+- 
 ![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen6.png)
 - Tambien tiene una paginacion en el cual se muestra de 20 personajes.
+- 
 ![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen7.png) 
 
 ## Servidor de desarrollo
