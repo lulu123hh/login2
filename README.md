@@ -5,7 +5,7 @@ Este proyecto fue generado utilizando [Angular CLI](https://github.com/angular/a
 ## Contenido del Proyecto
 
 ### Sistema de Autenticación
-- Login y Registro: IIntegrado con API
+- Login y Registro: IIntegrado con API https://api.escuelajs.co/api/v1/users
 ![Login Form](https://github.com/lulu123hh/imagenes/blob/7c167d90d7e95d9f2c8fa42288a427dbab639308/imagen1.png)
 
 ### Dashboard
